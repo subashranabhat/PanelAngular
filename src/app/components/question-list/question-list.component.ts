@@ -20,7 +20,7 @@ export class QuestionListComponent implements OnInit {
 
   ngOnInit() {
 
-this.questions = this.dataService.getQuestions();
+    this.questions = this.dataService.getQuestions();
   }
 
 }
